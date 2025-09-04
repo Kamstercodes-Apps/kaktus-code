@@ -21,8 +21,8 @@ jobs:
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
-      - name: Set up Firebase authentication
-        run: echo "${{ secrets.FIREBASE_TOKEN }}" | firebase login:ci --token
+      - name: Authenticate with Firebase
+        run: firebase login:ci --token ${{ secrets.FIREBASE_TOKEN }}
 
       - name: Change to project directory
         run: cd kaktus-code
