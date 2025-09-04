@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="KaktusCode.MainWindow"
+        Width="600" Height="400"
+        Title="Kaktus-Code 🌵">
+
+    <StackPanel Margin="10" Spacing="10">
+        <TextBlock Text="Kaktus-Code 🌵" 
+                   FontSize="20" 
+                   HorizontalAlignment="Center" />
+
+        <TextBox Name="CodeInput"
+                 AcceptsReturn="True"
+                 Height="200"
+                 Watermark="Your code..." />
+
+        <Button Name="RunButton" Content="Ausführen" Height="40"/>
+
+        <TextBox Name="OutputBox"
+                 AcceptsReturn="True"
+                 Height="100"
+                 IsReadOnly="True"
+                 Watermark="The output..." />
+    </StackPanel>
+</Window>

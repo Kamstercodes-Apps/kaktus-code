@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.9\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.9\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets')" />
+    <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\8.3.1.1\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\8.3.1.1\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.win-x86\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Win-x86.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.win-x86\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Win-x86.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.win-x64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Win-x64.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.win-x64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Win-x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.win-arm64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Win-arm64.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.win-arm64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Win-arm64.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.macos-x64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.macOS-x64.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.macos-x64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.macOS-x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.macos-arm64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.macOS-arm64.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.macos-arm64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.macOS-arm64.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.linux-x64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Linux-x64.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.linux-x64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Linux-x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)dotnetbrowser.chromium.linux-arm64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Linux-arm64.targets" Condition="Exists('$(NuGetPackageRoot)dotnetbrowser.chromium.linux-arm64\3.3.1\build\netstandard2.0\DotNetBrowser.Chromium.Linux-arm64.targets')" />
+    <Import Project="$(NuGetPackageRoot)avalonia.buildservices\0.0.31\buildTransitive\Avalonia.BuildServices.targets" Condition="Exists('$(NuGetPackageRoot)avalonia.buildservices\0.0.31\buildTransitive\Avalonia.BuildServices.targets')" />
+    <Import Project="$(NuGetPackageRoot)avalonia\11.3.4\buildTransitive\Avalonia.targets" Condition="Exists('$(NuGetPackageRoot)avalonia\11.3.4\buildTransitive\Avalonia.targets')" />
+  </ImportGroup>
+</Project>

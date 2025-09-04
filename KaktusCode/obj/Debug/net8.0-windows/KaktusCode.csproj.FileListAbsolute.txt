@@ -1,0 +1,5 @@
+C:\Users\kamst\Documents\Kaktus-Code\KaktusCode\obj\Debug\net8.0-windows\KaktusCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamst\Documents\Kaktus-Code\KaktusCode\obj\Debug\net8.0-windows\KaktusCode.AssemblyInfoInputs.cache
+C:\Users\kamst\Documents\Kaktus-Code\KaktusCode\obj\Debug\net8.0-windows\KaktusCode.AssemblyInfo.cs
+C:\Users\kamst\Documents\Kaktus-Code\KaktusCode\obj\Debug\net8.0-windows\KaktusCode.csproj.CoreCompileInputs.cache
+C:\Users\kamst\Documents\Kaktus-Code\KaktusCode\obj\Debug\net8.0-windows\KaktusCode.sourcelink.json
