@@ -1,4 +1,4 @@
-# MyCompiler - Kaktus-Code Compiler
+# Kaktus-Code
 
 **Kaktus-Code** is a custom programming language designed to offer a unique syntax and functionality. This project includes a compiler for Kaktus-Code, developed in **C#**, and features a cross-platform graphical user interface (GUI) built with **Avalonia**. The project is open-source and released under the **MIT License**.
 
