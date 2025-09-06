@@ -31,20 +31,20 @@ Kaktus-Code is designed with a focus on making own windows and styling. The lang
 
 To get started, clone the repository to your local machine:
 
-    ```git clone https://github.com/Kamstercodes-Apps/kaktus-code.git
-    cd kaktus-code```
+    git clone https://github.com/Kamstercodes-Apps/kaktus-code.git
+    cd kaktus-code
 
 Build the Project
 
 To build the project, use the following command:
 
-    ```dotnet build```
+    dotnet build
 
 Running the Compiler
 
 Once the project is built, you can run the compiler using:
 
-    ```dotnet run```
+    dotnet run
 
 This command will launch the compiler and open the Avalonia-based GUI.
 
